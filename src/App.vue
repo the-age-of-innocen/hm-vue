@@ -1,15 +1,15 @@
 <template>
-  <div>我是根组件</div>
+  <router-view></router-view>
 </template>
 
 <script>
-
-
-export default {
- 
-}
+export default {};
 </script>
 
 <style>
-
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
 </style>
